@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bikbulatov_Eyes", "Bikbulatov_Eyes\Bikbulatov_Eyes.csproj", "{192A24CB-2DEE-4688-AF9F-7069F6DE0AFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192A24CB-2DEE-4688-AF9F-7069F6DE0AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192A24CB-2DEE-4688-AF9F-7069F6DE0AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192A24CB-2DEE-4688-AF9F-7069F6DE0AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192A24CB-2DEE-4688-AF9F-7069F6DE0AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E3490E5-56FB-4E4D-9F18-545440929CCE}
+	EndGlobalSection
+EndGlobal

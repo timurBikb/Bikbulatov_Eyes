@@ -1,0 +1,25 @@
+﻿<Window x:Class="Bikbulatov_Eyes.PriorityWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bikbulatov_Eyes"
+        mc:Ignorable="d"
+        Title="Выбор приоритета" Height="150" Width="400" FontFamily="Century Gothic">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Введите новый приоритет" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"></TextBlock>
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"  Orientation="Horizontal">
+            <TextBlock Text="Приоритет:" FontSize="15"></TextBlock>
+            <TextBox Name="PriorityTB" Width="100"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+            <Button Name="SaveButton" Content="Сохранить" Click="SaveButton_Click"></Button>
+            <Button Name="CancelButton" Content="Отмена" Click="CancelButton_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
